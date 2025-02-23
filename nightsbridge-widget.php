@@ -503,13 +503,13 @@ function display_nightsbridge_availability_check() {
                     <div data-title="Arrival">
                         <label id="check_in" class="arriv_depart"><?php echo esc_html__('Arrival', 'nightsbridge'); ?></label>
                         <div class="nb_datePicker">
-                            <input class="form-control" type="text" id="nb_CheckInDate" placeholder="YYYY-MM-DD">
+                            <input class="form-control" type="text" id="nb_CheckInDate" placeholder="DD-MM-YYYY">
                         </div>
                     </div>
                     <div data-title="Departure">
                         <label id="check_out" class="arriv_depart"><?php echo esc_html__('Departure', 'nightsbridge'); ?></label>
                         <div class="nb_datePicker">
-                            <input class="form-control" type="text" id="nb_CheckOutDate" placeholder="YYYY-MM-DD">
+                            <input class="form-control" type="text" id="nb_CheckOutDate" placeholder="DD-MM-YYYY">
                         </div>
                     </div>
                     <div>
