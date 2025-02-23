@@ -491,7 +491,6 @@ function display_nightsbridge_availability_check() {
             echo '<p class="nb-error">' . esc_html__('Please set a NightsBridge Booking ID in the plugin settings.', 'nightsbridge') . '</p>';
         } else {
             ?>
-            <!-- <div class="nb_container"> -->
                 <br><br>
                 <div class="nb_grid-container">
                     <div class="nb_grid-header" data-title="Arrival">
