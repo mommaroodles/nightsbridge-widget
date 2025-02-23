@@ -7,7 +7,7 @@
  * Author: Melanie Shepherd
  * Author URI: https://wpdevs.co.za
  * Text Domain:  nightsbridge
- * License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+ * License URI: https://mit-license.org/
  */
 
 defined('ABSPATH') || exit;
