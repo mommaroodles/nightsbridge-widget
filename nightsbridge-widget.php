@@ -12,10 +12,6 @@
 
 defined('ABSPATH') || exit;
 
-// Define constants
-// already defined in wordpress
-//define('ABSPATH', dirname(__FILE__) . '/');
-
 if ( ! defined( 'NIGHTSBRIDGE_VERSION' ) ) {
 	define( 'NIGHTSBRIDGE_VERSION', '1.0.0' );
 }
