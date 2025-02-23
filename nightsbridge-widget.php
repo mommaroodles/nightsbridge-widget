@@ -680,6 +680,13 @@ function nb_button_text_render($args) {
 }
 
 /**
+ * Load text domain for translations
+ */
+add_action('plugins_loaded', function() {
+	load_plugin_textdomain('nightsbridge', false, dirname(plugin_basename(__FILE__)) . '/languages/');
+});
+
+/**
  * Cleanup on plugin uninstall
  */
 register_uninstall_hook(__FILE__, 'nb_uninstall');
@@ -692,9 +699,3 @@ function nb_uninstall() {
     delete_option('nb_settings');
 }
 
-/**
- * Load text domain for translations
- */
-add_action('plugins_loaded', function() {
-    load_plugin_textdomain('nightsbridge', false, dirname(plugin_basename(__FILE__)) . '/languages/');
-});
