@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+.close-btn,.nb_btn {
+  text-align: center;
+  cursor: pointer;
+/*   font-weight: 700; */
+}
+
+#top label,.close-btn,.nb_btn,.nb_grid-header {
+  font-weight: 700
+}
+
+.modal {
+  margin-top: 100px;
+  padding-top: 45px;	
+  display: none;
+  position: fixed;
+  z-index: 99999999999999999; /* Ensure this is higher than other elements */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,.4);
+}
+
+div#availability_section {
+  position: relative;
+  z-index: 0;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 0 auto 5%;
+  padding: 0;
+  border: 1px solid #888;
+  width: 90%;
+  z-index: 100000; /* Ensure this is higher than other elements */
+}
+
+.close-btn {
+  color: #ca0000;
+  float: right;
+  font-size: 36px;
+  line-height: 35px;
+  width: 35px;
+  background: #fff;
+  border-radius: 50%;
+  display: block;
+  border: 2px solid #363636
+}
+
+.close-btn:focus,.close-btn:hover {
+  color: #000;
+  text-decoration: none;
+  background: #fff;
+  border: 2px solid #363636
+}
+
+@media screen and (max-width:600px) {
+  .modal-content {
+    width: 95%;
+    margin: 5% auto
+  }
+}
+
+.nb_grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  align-content: center
+}
+
+.nb_grid-header {
+  text-align: center
+}
+
+.nb_btn {
+  background-color: #484e4f;
+  color: #fff;
+  border-radius: 2px
+}
+
+.nb_btn:hover {
+  background-color: #b6cc6a
+}
+
+@media screen and (min-width:801px) {
+  .arriv_depart {
+    display: none
+  }
+}
+
+@media screen and (max-width:767px) {
+  .arriv_depart,.nb_grid-container {
+    display: flex;
+    align-content: center
+  }
+
+  .nb_btn {
+    width: 100%
+  }
+
+  button#nb_checkAvailabilityBtn {
+    padding: 18px;
+    text-wrap: nowrap;
+    max-width: 190px
+  }
+  
+  #availability_search {
+    z-index: 1; /* Ensure this is lower than the modal and date selectors */
+  }
+
+  .nb_grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+  }
+
+  .arriv_depart {
+    align-items: center;
+    justify-content: center;
+    color: #fff
+  }
+
+  .nb_datePicker {
+    width: 190px!important;
+    margin-left: 0!important
+  }
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box
+}
+
+#socket,header#header,main.template-page.content.av-content-full.alpha.units {
+  z-index: 0
+}
+
+#top label {
+  font-size: 15px
+}
+
+#top .main_color .input-text,#top .main_color input[type=email],#top .main_color input[type=input],#top .main_color input[type=number],#top .main_color input[type=password],#top .main_color input[type=search],#top .main_color input[type=tel],#top .main_color input[type=text],#top .main_color input[type=url],#top .main_color select,#top .main_color textarea {
+  color: #000
+}
+
+.flatpickr-calendar {
+  z-index: 99998; /* Ensure this is higher than other elements but lower than the modal */
+}
+
+.flatpickr-day.endRange,.flatpickr-day.endRange.inRange,.flatpickr-day.endRange.nextMonthDay,.flatpickr-day.endRange.prevMonthDay,.flatpickr-day.endRange:focus,.flatpickr-day.endRange:hover,.flatpickr-day.selected,.flatpickr-day.selected.inRange,.flatpickr-day.selected.nextMonthDay,.flatpickr-day.selected.prevMonthDay,.flatpickr-day.selected:focus,.flatpickr-day.selected:hover,.flatpickr-day.startRange,.flatpickr-day.startRange.inRange,.flatpickr-day.startRange.nextMonthDay,.flatpickr-day.startRange.prevMonthDay,.flatpickr-day.startRange:focus,.flatpickr-day.startRange:hover {
+  background: #b6cc6a;
+  border-color: #b6cc6a
+}
+
+button#nb_checkAvailabilityBtn {
+  padding: 18px 24px 16px
+}
+
+input {
+  width: 100%!important
+}
+
+#top .input-text,#top input[type=email],#top input[type=input],#top input[type=number],#top input[type=password],#top input[type=search],#top input[type=tel],#top input[type=text],#top input[type=url],#top select,#top textarea {
+  border: none;
+  margin-bottom: 0
+}
+
+.nb_datePicker {
+  margin-bottom: 10px;
+  border-radius: 0
+}

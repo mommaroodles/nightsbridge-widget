@@ -1,0 +1,287 @@
+/*This stylesheet is wordpress ready*/
+/* ============================= */
+/*         Customize Styles      */
+/* ============================= */
+:root{
+  /*          Color Setup       */
+  --nb_primary: #ffffff;
+  --nb_primary-container: #ffffff;
+  --nb_primary-header: #ffffff;
+  --nb_primary-text: #000000;
+  --nb_primary-border: #000000;
+  --nb_btn-primary: #4CAF50;
+  --nb_transparent: transparent;
+  /*           Font Setup        */
+  --nb-font-screen-800: 1em;
+  --nb_h1-header-size: 1.7em;
+  --nb_header-font-size: 20px;
+  --nb_mobile_header-font-size: 14px;
+  --nb-button-font-size: 14px;
+  --nb_font: arial;
+  /*        Margin/Padding/Width  */
+  --nb_full-width: 100%;
+  --nb_half-width: 65%;
+  --nb-main-border-margins: 20;
+  /*          Border Setup        */
+  --nb-cell-radius: 5px;
+  --nb_general-border-radius: 0.5rem 0.5rem 0 0;
+  --nb_general-border-radius-full: 0.5rem 0.5rem 0.5rem 0.5rem;
+  --nb_border-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+/* ============================= */
+/* Layout Of the Date Widget     */
+/* ============================= */
+.nb_container{
+  margin:var(--nb-main-border-margins);
+  display: flex;
+  justify-content: center;
+}
+.nb_grid-container{
+  display: grid;
+  margin: 0 auto;
+  box-shadow: var(--nb_border-shadow);
+  background-color: var(--nb_primary-container);
+  border-radius: var(--nb_general-border-radius);
+  width: var(--nb_half-width);
+}
+.nb_grid-row{
+  display: flex;
+}
+.nb_grid-cell-1{
+  width: 35%;
+  font-family: var(--nb_font) !important;
+}
+.nb_grid-cell-2{
+  width: 35%;
+  font-family: var(--nb_font) !important;
+}
+.nb_grid-cell-3{
+  width: 30%;
+  font-family: var(--nb_font) !important;
+}
+
+/* ============================= */
+/*         Label Styles          */
+/* ============================= */
+.nb_header{
+  background: rgba(var(--nb_primary), 0.5);
+  font-weight: bold;
+  color: var(--nb_primary-text);
+  text-align: center;
+  font-size: var(--nb_header-font-size);
+  font-family: var(--nb_font) !important;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+/* ============================= */
+/*    Screen Size Scaling        */
+/* ============================= */
+@media(max-width:400px){
+  .nb_grid-row{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  input{
+    background-color: var(--nb_transparent);
+  }
+  input:focus{
+    box-shadow: none;
+  }
+  .nb_datePicker{
+    margin-left: 24px !important;
+    width: 60% !important;
+  }
+  .nb_calendar{
+    margin: 10px 10px 10px -10px !important;
+  }
+  .nb_header{
+    font-size: var(--nb_mobile_header-font-size);
+  }
+
+}
+@media(max-width: 800px){
+  .nb_grid-container{
+    background: transparent;
+    grid-row-gap: 2rem;
+    box-shadow: none;
+    width: 65%;
+  }
+  .nb_grid-row{
+    margin-right: 10px;
+    grid-template-columns: 3fr 3fr 2fr 2fr;
+    background: var(--nb_primary);
+    box-shadow: var(--nb_border-shadow);
+    border-radius: 0.5rem;
+    display: inline-block;
+  }
+  .nb_grid-cell-1{
+    width: 100%;
+  }
+  .nb_grid-cell-2{
+    width: 100%;
+  }
+  .nb_grid-cell-3{
+    width: 100%;
+  }
+  .nb_grid-row:first-child{
+    display: none;
+  }
+
+  .nb_header{
+    display: none;
+  }
+
+  .far{
+    display: none;
+  }
+  label{
+    height: fit-content;
+  }
+  input{
+    background-color: var(--nb_transparent);
+  }
+  input:focus{
+    box-shadow: none;
+  }
+  .nb_buttonText{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+}
+/* ============================= */
+/*    Input Fields Styling       */
+/* ============================= */
+.nb_btn{
+  float: right;
+  margin: 10px 10px 6px;
+  background-color: var(--nb_btn-primary);
+  padding: 12px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--nb_general-border-radius-full);
+  font-weight: 600;
+  font-size: var(--nb-button-font-size) !important;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  width: 90%;
+}
+input {
+  border: none;
+  color: var(--nb_primary-text);
+  text-align: center;
+  border-radius: var(--nb_general-border-radius-full);
+  font-size: 18px;
+  padding: 10px 10px 5px 5px !important;
+  display: block;
+  width: 90% !important;
+  /*Update the location of the calendar icon*/
+  background: url(nb_calendar.svg) no-repeat right center;
+  margin-right: 5px;
+  height: 40px !important;
+}
+input:focus-visible{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.nb_datePicker{
+/*   border: 1px solid var(--nb_primary-border); */
+  border-radius: var(--nb_general-border-radius-full);
+  display: flex;
+  min-height: fit-content;
+  height: 44px;
+  font-family: var(--nb_font) !important;
+  margin: 10px;
+  width: 90%;
+}
+.nb_grid_header {
+  margin: 0.625em 0 0.75em 0;
+}
+
+.nb_calendar{
+  height: 24px;
+  margin: 10px;
+}
+.far {
+  padding: 5px;
+  position: absolute;
+}
+.nb_buttonText{
+  text-align: center;
+  font-family: var(--nb_font) !important;
+}
+body {
+  color: #424242;
+}
+.bar {
+  position: relative;
+  display: block;
+  width: 315px;
+}
+.bar:before,
+.bar:after {
+  background: #0288D1;
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+  left: 50%;
+}
+.bar:after {
+  right: 50%;
+}
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+  width: 50%;
+}
+
+.group {
+  position: relative;
+  margin: 30px 20px 50px;
+}
+
+/* ============================= */
+/* FlatPicker ~ Calendar styles  */
+/* ============================= */
+.flatpickr-current-month .flatpickr-monthDropdown-months{
+  /*background:#979797;*/
+  height: 44px;
+  /*set background for top container here*/
+}
+.flatpickr-months .flatpickr-month{
+  /*set background for top container here*/
+  font-family: var(--nb_font) !important;
+}
+
+/*noinspection ALL*/
+.flatpickr-input.flatpickr-mobile{
+  /*background-color: var(--nb_transparent);*/
+}
+.flatpickr-input[readonly]{
+  height: 40px;
+}
+.dayContainer {
+  font-family: var(--nb_font) !important;
+}
+
+/*noinspection CssUnusedSymbol*/
+span.flatpickr-weekday{
+  font-family: var(--nb_font) !important;
+}
+.flatpickr-current-month{
+  padding: 0.16px 0 0 0;
+}

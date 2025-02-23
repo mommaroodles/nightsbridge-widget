@@ -1,0 +1,181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nightsbridge Widget 1.0.0\n"
+"POT-Creation-Date: 2025-02-21 16:57+0200\n"
+"PO-Revision-Date: 2025-02-21 17:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: https://wpdevs.co.za\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_nx;esc_html__;esc_html_e;esc_attr_x;"
+"esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:68 nightsbridge-widget.php:72
+msgid "NightsBridge Widget: Please enter your NightsBridge Booking ID (BBID)."
+msgstr "NightsBridge Widget: Please enter your NightsBridge Booking ID (BBID)."
+
+#: ⁨backup files/nightsbridge-widget.php⁩:73 nightsbridge-widget.php:77
+msgid "NightsBridge Widget: Please select a page for the widget."
+msgstr "NightsBridge Widget: Please select a page for the widget."
+
+#: ⁨backup files/nightsbridge-widget.php⁩:91 nightsbridge-widget.php:111
+msgid "NightsBridge Booking Widget Settings"
+msgstr "NightsBridge Booking Widget Settings"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:92 nightsbridge-widget.php:112
+msgid "NightsBridge"
+msgstr "NightsBridge"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:109 nightsbridge-widget.php:130
+msgid "NightsBridge Widget Settings"
+msgstr "NightsBridge Widget Settings"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:116 nightsbridge-widget.php:137
+msgid "NightsBridge ID (BBID)"
+msgstr "NightsBridge ID (BBID)"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:120 nightsbridge-widget.php:141
+msgid "Connect your NightsBridge account (required)"
+msgstr "Connect your NightsBridge account (required)"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:125 nightsbridge-widget.php:146
+msgid "Date Format"
+msgstr "Date Format"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:129 nightsbridge-widget.php:150
+msgid "Custom date format (e.g., d-M-Y)"
+msgstr "Custom date format (e.g., d-M-Y)"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:134 nightsbridge-widget.php:155
+msgid "Language"
+msgstr "Language"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:138 nightsbridge-widget.php:159
+msgid "Select widget language"
+msgstr "Select widget language"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:143 nightsbridge-widget.php:164
+msgid "Widget Page"
+msgstr "Widget Page"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:147 nightsbridge-widget.php:168
+msgid "Select the page where the widget will appear"
+msgstr "Select the page where the widget will appear"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:152 nightsbridge-widget.php:173
+msgid "Primary Color"
+msgstr "Primary Color"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:156 nightsbridge-widget.php:177
+msgid "Select the primary color for the widget"
+msgstr "Select the primary color for the widget"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:160 nightsbridge-widget.php:181
+msgid "Button Text Color"
+msgstr "Button Text Color"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:164 nightsbridge-widget.php:185
+msgid "Select the text color for the button"
+msgstr "Select the text color for the button"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:169 nightsbridge-widget.php:190
+msgid "Button Hover Color"
+msgstr "Button Hover Color"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:173 nightsbridge-widget.php:194
+msgid "Select the hover background color for the button"
+msgstr "Select the hover background color for the button"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:269 nightsbridge-widget.php:341
+msgid "Select a page"
+msgstr "Select a page"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:277 nightsbridge-widget.php:349
+msgid ""
+"The NightsBridge Plugin uses two shortcodes to render the widget on the "
+"front-end:"
+msgstr ""
+"The NightsBridge Plugin uses two shortcodes to render the widget on the "
+"front-end:"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:279 nightsbridge-widget.php:351
+msgid "[nb_availability_check] - Adds the Check Availability Widget"
+msgstr "[nb_availability_check] - Adds the Check Availability Widget"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:280 nightsbridge-widget.php:352
+msgid ""
+"[nb_availability_search] - Adds a grid widget which displays the "
+"accommodation and dates available in calendar form"
+msgstr ""
+"[nb_availability_search] - Adds a grid widget which displays the "
+"accommodation and dates available in calendar form"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:282 nightsbridge-widget.php:354
+msgid "Information"
+msgstr "Information"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:283 nightsbridge-widget.php:355
+msgid ""
+"To add the Widgets copy and paste the shortcodes into the selected page. "
+"This is in order to load the Javascript and CSS for the widget only on the "
+"page selected as opposed to all WordPress pages. This improves page load "
+"speeds and avoids any conflict with other plugins."
+msgstr ""
+"To add the Widgets copy and paste the shortcodes into the selected page. "
+"This is in order to load the Javascript and CSS for the widget only on the "
+"page selected as opposed to all WordPress pages. This improves page load "
+"speeds and avoids any conflict with other plugins."
+
+#: ⁨backup files/nightsbridge-widget.php⁩:293 nightsbridge-widget.php:366
+msgid "Configure your NightsBridge widget settings below."
+msgstr "Configure your NightsBridge widget settings below."
+
+#: ⁨backup files/nightsbridge-widget.php⁩:323 nightsbridge-widget.php:415
+msgid "Please set a Nightsbridge Booking ID in the plugin settings."
+msgstr "Please set a Nightsbridge Booking ID in the plugin settings."
+
+#: ⁨backup files/nightsbridge-widget.php⁩:344 nightsbridge-widget.php:441
+msgid "Please set a NightsBridge Booking ID in the plugin settings."
+msgstr "Please set a NightsBridge Booking ID in the plugin settings."
+
+#: ⁨backup files/nightsbridge-widget.php⁩:351
+#: ⁨backup files/nightsbridge-widget.php⁩:358 nightsbridge-widget.php:448
+#: nightsbridge-widget.php:455
+msgid "Arrival"
+msgstr "Arrival"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:354
+#: ⁨backup files/nightsbridge-widget.php⁩:364 nightsbridge-widget.php:451
+#: nightsbridge-widget.php:461
+msgid "Departure"
+msgstr "Departure"
+
+#: ⁨backup files/nightsbridge-widget.php⁩:371 nightsbridge-widget.php:468
+msgid "CHECK AVAILABILITY"
+msgstr "CHECK AVAILABILITY"
+
+#: nightsbridge-widget.php:82
+msgid "NightsBridge Widget: The page slug for the widget is null."
+msgstr "NightsBridge Widget: The page slug for the widget is null."
+
+#: nightsbridge-widget.php:336
+msgid "No pages found."
+msgstr "No pages found."
+
+#: nightsbridge-widget.php:373
+msgid "An error occurred while loading the settings section."
+msgstr "An error occurred while loading the settings section."
+
+#: nightsbridge-widget.php:401
+msgid "An error occurred while rendering the settings page."
+msgstr "An error occurred while rendering the settings page."
+
+#: nightsbridge-widget.php:485
+msgid "An error occurred while loading the availability check."
+msgstr "An error occurred while loading the availability check."
