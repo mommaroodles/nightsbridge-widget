@@ -444,7 +444,7 @@ function nb_options_page() {
                 submit_button();
                 ?>
             </form>
-            <div class="notice notice-warning">
+            <div class="notice notice-warning is-dismissible">
                 <p><?php echo esc_html__('Note: Uninstalling this plugin will remove all settings from the database.', 'nightsbridge'); ?></p>
             </div>            
         </div>
