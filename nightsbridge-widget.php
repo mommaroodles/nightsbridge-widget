@@ -516,7 +516,7 @@ function display_nightsbridge_availability_check() {
                         </div>
                     </div>
                     <div>
-                        <button id="nb_checkAvailabilityBtn" class="nb_btn" type="submit" value="Check Availability">
+                        <button id="nb_checkAvailabilityBtn" class="nb_btn" type="button" value="Check Availability">
                             <span class="nb_buttonText"><?php echo esc_html__('CHECK AVAILABILITY', 'nightsbridge'); ?></span>
                         </button>
                     </div>
