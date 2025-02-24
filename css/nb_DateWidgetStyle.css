@@ -1,4 +1,4 @@
-/*This stylesheet is wordpress ready*/
+/*This stylesheet is WordPress ready*/
 /* ============================= */
 /*         Customize Styles      */
 /* ============================= */
@@ -217,7 +217,4 @@ input:focus {
 .nb_buttonText {
   text-align: center;
   font-family: var(--nb_font) !important;
-}
-body {
-  color: #424242;
 }
