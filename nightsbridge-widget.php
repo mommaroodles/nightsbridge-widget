@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Nightsbridge Widget
  * Plugin URI: https://wpdevs.co.za
- * Description: Displays the Nightsbridge Widget and loads CSS and JS on a user-selected page
+ * Description: Allow visitors to check NightsBridge room availability and make bookings directly directly on your WordPress website, by querying the NightsBridge API.
  * Version: 1.0.0
  * Author: Melanie Shepherd
  * Author URI: https://wpdevs.co.za
