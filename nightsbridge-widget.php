@@ -701,4 +701,3 @@ function nb_uninstall() {
     }
     delete_option('nb_settings');
 }
-
